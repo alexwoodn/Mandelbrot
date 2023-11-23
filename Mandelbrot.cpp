@@ -214,48 +214,4 @@ void ComplexPlane::updateRender()
 		m_state = State::DISPLAYING;
 	}
 }
-//main.cpp
-int main()
-{
-	// Get desktop resolution and construct the RenderWindow
-	VideoMode desktop = VideoMode::getDesktopMode();
-	RenderWindow window(desktop, "Mandelbrot Set Viewer", Style::Default);
 
-	// Construct the ComplexPlane
-	ComplexPlane complexPlane(desktop.width, desktop.height); // Using half resolution for performance
-
-
-	// Begin the main loop
-	while (window.isOpen())
-	{
-		// Handle Input segment
-		Event event;
-		while (window.pollEvent(event))
-		{
-			// Handle Event::Closed
-			if (event.type == Event::Closed)
-				window.close();
-
-			// Handle Event::MouseButtonPressed
-			
-
-			// Handle Event::MouseMoved
-		}
-
-		// Check for Escape key
-		if (Keyboard::isKeyPressed(Keyboard::Escape))
-			window.close();
-
-		// Update Scene segment
-		complexPlane.updateRender();
-		//complexPlane.loadText(text);
-
-		// Draw Scene segment
-		window.clear();
-		window.draw(complexPlane);
-		//window.draw(text);
-		window.display();
-	}
-
-	return 0;
-}
