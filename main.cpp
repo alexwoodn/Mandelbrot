@@ -1,5 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include "ComplexPlane.h"
+#include "ComplexPlane.cpp"
 
 using namespace sf;
 
