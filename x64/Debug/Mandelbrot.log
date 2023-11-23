@@ -1,0 +1,22 @@
+﻿  Mandelbrot.cpp
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(52,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(53,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(70,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(71,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(81,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(82,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(175,14): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(176,15): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(185,106): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(186,106): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(199,16): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\Mandelbrot.cpp(209,16): warning C4244: 'argument': conversion from 'float' to 'size_t', possible loss of data
+  Mandelbrot.vcxproj -> C:\Users\Kevin\0.Hephastus\Project\Mandelbrot\x64\Debug\Mandelbrot.exe
