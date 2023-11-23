@@ -30,6 +30,10 @@ void ComplexPlane::zoomIn()
 	//find new size
 	float newX = BASE_WIDTH * pow(BASE_ZOOM, m_zoomCount);
 	float newY = BASE_HEIGHT * m_aspectRatio * pow(BASE_ZOOM, m_zoomCount);
+	//Calculate new center
+	Vector2f direction = m_mouseLocation - m_plane_center;
+	// adjust center
+	m_plane_center += direction * 0.5f;
 	// update plane size
 	m_plane_size = Vector2f(newX, newY);
 	//set state to calculating
@@ -41,6 +45,10 @@ void ComplexPlane::zoomOut()
 	//find new size
 	float newX = BASE_WIDTH * pow(BASE_ZOOM, m_zoomCount);
 	float newY = BASE_HEIGHT * m_aspectRatio * pow(BASE_ZOOM, m_zoomCount);
+	//Calculate new center
+	Vector2f direction = m_mouseLocation - m_plane_center;
+	// adjust center
+	m_plane_center -= direction * 0.5f;
 	// update plane size
 	m_plane_size = Vector2f(newX, newY);
 	//set state to calculating
