@@ -48,7 +48,7 @@ void ComplexPlane::zoomOut()
 	//Calculate new center
 	Vector2f direction = m_mouseLocation - m_plane_center;
 	// adjust center
-	m_plane_center -= direction * 0.5f;
+	m_plane_center -= direction * 0.1f;
 	// update plane size
 	m_plane_size = Vector2f(newX, newY);
 	//set state to calculating
