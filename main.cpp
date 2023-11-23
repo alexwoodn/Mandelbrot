@@ -23,6 +23,7 @@ int main() {
     text.setFont(font);
     text.setCharacterSize(20);
     text.setFillColor(Color::White);
+    text.setPosition(10, 10);
 
     // Begin the main loop
     while (window.isOpen()) {
