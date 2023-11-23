@@ -2,6 +2,7 @@
 #include "ComplexPlane.h"
 
 using namespace sf;
+using namespace std;
 
 int main() {
     // Get desktop resolution and construct the RenderWindow
