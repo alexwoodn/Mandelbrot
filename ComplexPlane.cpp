@@ -69,6 +69,7 @@ void ComplexPlane::loadText(Text& text)
 	out << "Cursor: (" << m_mouseLocation.x << ", " << m_mouseLocation.y << ")" << endl;
 	out << "Left-click to Zoom in" << endl;
 	out << "Reft-click to Zoom out" << endl;
+	text.setString(out.str());
 }
 int ComplexPlane::countIterations(Vector2f coord)
 {
